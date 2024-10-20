@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masai Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navbar styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 20px;
+    box-shadow: 0 4px 2px -2px gray;
+}
+
+.logo h1 {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu a {
+    margin: 0 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.register-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Main content styling */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.text-section h2 {
+    font-size: 36px;
+    color: #6c63ff;
+}
+
+.text-section p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: black;
+}
+
+.apply-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.video-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-card {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.video-card h3 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.video-card p {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Impact section */
+.impact-section {
+    background-color: #4169e1;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.impact-section h2 {
+    font-size: 32px;
+}
+
+.impact-section p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+    </style>
+</head>
+<body>
+
+<!-- Header Section -->
+<header>
+    <div class="navbar">
+        <div class="logo">
+            <h1>masai.</h1>
+        </div>
+        <div class="menu">
+            <a href="#">COURSES</a>
+            <a href="#">SCHOLARSHIP</a>
+            <a href="#">SUCCESS STORIES</a>
+            <a href="#">EVENTS</a>
+            <a href="#">HIRE FROM US</a>
+            <a href="#">FEES</a>
+        </div>
+        <button class="register-btn">REGISTER</button>
+    </div>
+</header>
+
+<!-- Main Section -->
+<main>
+    <div class="main-content">
+        <div class="text-section">
+            <h2>Proof that dreams do come true</h2>
+            <p>A testament to what's possible</p>
+            <button class="apply-btn">APPLY NOW</button>
+        </div>
+        <div class="video-section">
+            <div class="video-card">
+                <h3>From a cab driver to a software engineer</h3>
+                <p>Ashish Raj<br>Munger, Bihar</p>
+                <video controls width="300">
+                    <source src="sample-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <div class="impact-section">
+        <h2>How is Masai Creating an Impact?</h2>
+        <p>6000+ students placed across 5000+ companies</p>
+    </div>
+</main>
+
+</body>
+</html>
